@@ -4,7 +4,7 @@ h2. General
 
 This is a complete port of "Liquid":http://www.liquidmarkup.org/ from Ruby to JavaScript. Any template that Ruby Liquid can compile and render, Liquid.js should too.
 
-This tries to be javascript framework agnostic (i.e. doesn't use jQuery nor Prototype).  This adds a little extra code as it implements its own helpers like clear, first, last on Array, and a Class OOP implementation; this tradeoff is made to allow the code to be portable across many systems.
+This tries to be javascript framework agnostic (i.e. doesn't use jQuery nor Prototype).  This adds a little extra code as it implements its own helpers like clear, first, last on Array, and a Class object oriented programming(OOP) implementation; this tradeoff is made to allow the code to be portable across many systems.
 
 Liquid.js does not use <tt>eval</tt> or <tt>with</tt>, so it's pretty clean and really safe.
 
